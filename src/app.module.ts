@@ -1,12 +1,10 @@
-import { Module } from "@nestjs/common";
-import { MongooseModule } from "@nestjs/mongoose";
-import { ConfigModule } from '@nestjs/config';
+import { Module } from "@nestjs/common"
+import { MongooseModule } from "@nestjs/mongoose"
+import { ConfigModule } from '@nestjs/config'
 
-import { AppController } from "./app.controller";
-import { AppService } from "./app.service";
-import { CommentsModule } from "./comments/comments.module";
-
-console.log(process.env.MONGO_USER);
+import { AppController } from "./app.controller"
+import { AppService } from "./app.service"
+import { CommentsModule } from "./comments/comments.module"
 
 @Module({
   imports: [

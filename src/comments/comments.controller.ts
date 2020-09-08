@@ -1,7 +1,7 @@
-import { Controller, Post, Body, Get, Param, Query } from "@nestjs/common";
+import { Controller, Post, Body, Get, Param, Query } from "@nestjs/common"
 
-import { CommentsService } from "./comments.service";
-import { Comment } from "./comment.schema";
+import { CommentsService } from "./comments.service"
+import { Comment } from "./comment.schema"
 
 @Controller("comments")
 export class CommentsController {
